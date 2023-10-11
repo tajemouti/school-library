@@ -29,14 +29,3 @@ class Person < Nameable
   end
 end
 
-person1 = Person.new(15, 'Adham', parent_permission: false)
-person2 = Person.new(17, 'Najlae')
-person3 = Person.new(40)
-
-puts person1.can_use_services? # false
-puts person2.can_use_services? # true
-puts person3.can_use_services? # true
-
-puts person1.correct_name # Adham
-puts person2.correct_name # Najlae
-puts person3.correct_name # Unknown

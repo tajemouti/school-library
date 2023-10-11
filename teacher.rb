@@ -13,15 +13,3 @@ class Teacher < Person
   end
 end
 
-teacher1 = Teacher.new(43, 'Abdesselam', specialization: 'Arabic')
-teacher2 = Teacher.new(27, 'Fineus', specialization: 'Biology')
-
-puts teacher1.name # Abdesselam
-puts teacher1.age # 43
-puts teacher1.specialization # Arabic
-puts teacher1.can_use_services? # true
-
-puts teacher2.name # Fineus
-puts teacher2.age # 27
-puts teacher2.specialization # Biology
-puts teacher2.can_use_services? # true
