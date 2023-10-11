@@ -67,7 +67,7 @@ bundle install
 To use, run:
 
 ```
-ruby <file_name>.rb
+ruby tests.rb
 ```
 ## 👥 Author <a name="author"></a>
 
