@@ -67,7 +67,7 @@ bundle install
 To use, run:
 
 ```
-ruby tests.rb
+rspec
 ```
 ## 👥 Author <a name="author"></a>
 
