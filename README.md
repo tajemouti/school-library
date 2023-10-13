@@ -20,7 +20,7 @@
 
 # 📖 [School Library] <a name="about-project"></a>
 
-**School Library** is a Ruby app with classes for students and teachers, implementing encapsulation and inheritance, and enabling command-line execution.
+**School Library** The School Library Console App is a command-line application designed to manage a school library's operations. This project allows users to interact with the library's database, which includes information about books, people (students and teachers), and rentals. Users can perform a variety of tasks related to managing the library's resources and tracking rentals. The application offers a user-friendly menu-driven interface for easy navigation and interaction.
 
 ## 🛠 Built With <a name="built-with"></a>
 Ruby, Visual Studia Code, WSL
@@ -37,7 +37,12 @@ Ruby, Visual Studia Code, WSL
 
 ### Key Features <a name="key-features"></a>
 
-- **[School Library]**
+- **[List All Books]**
+- **[List All People]**
+- **[Create a Person]**
+- **[Create a Book]**
+- **[Create a Rental]**
+- **[List All Rentals for a Given Person ID]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +72,7 @@ bundle install
 To use, run:
 
 ```
-rspec
+ruby main.rb
 ```
 ## 👥 Author <a name="author"></a>
 
