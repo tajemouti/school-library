@@ -74,13 +74,16 @@ To use, run:
 ```
 ruby main.rb
 ```
-## 👥 Author <a name="author"></a>
+## 👥 Author <a name="author">1</a>
 
 - GitHub: [@tajemouti](https://github.com/tajemouti)
 - Twitter: [@AjrassTajemouti](https://twitter.com/AjrassTajemouti)
 - LinkedIn: [ajrass](https://linkedin.com/in/ajrass)
 
-
+## 👥 Author <a name="author">2</a>
+- GitHub: [mumbereh](https://github.com/mumbereh)
+- Twitter: [@mumberehabert1](https://twitter.com/mumberehabert1)
+- LinkedIn: [Mumbere Habert](https://www.linkedin.com/in/mumbere-habert-33898a255/)
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[School Library App]**
