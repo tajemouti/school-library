@@ -8,6 +8,6 @@ class App
   def initialize
     @people_manager = PeopleManager.new
     @books_manager = BooksManager.new
-    @rentals_manager = RentalsManager.new(@books_manager, @people_manager) 
+    @rentals_manager = RentalsManager.new(@books_manager, @people_manager)
   end
 end
