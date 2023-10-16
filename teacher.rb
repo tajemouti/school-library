@@ -1,4 +1,4 @@
-require_relative 'person'
+require './person'
 
 class Teacher < Person
   attr_accessor :specialization
@@ -10,5 +10,9 @@ class Teacher < Person
 
   def can_use_services?
     true
+  end
+
+  def display_info
+    "[Teacher] name: #{name}, ID: #{id}, Age: #{age}"
   end
 end
