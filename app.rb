@@ -4,11 +4,13 @@ require './rentals_manager'
 require './person_factory'
 require './book_factory'
 require './rental_factory'
+require './serialization'
 
 class App
   include PersonFactory
   include BookFactory
   include RentalFactory
+  include Serializition
 
   attr_accessor :people_manager, :books_manager, :rentals_manager
 
@@ -28,15 +30,5 @@ class App
     load_books
     load_people
     load_rentals
-  end
-
-  def serialize_to_json(data, filename)
-    File.open(filename, 'w') { |file| file.puts JSON.generate(data) }
-  end
-
-  def deserialize_from_json(filename)
-    return [] unless File.exist?(filename)
-
-    JSON.parse(File.read(filename))
   end
 end
