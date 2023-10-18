@@ -9,4 +9,5 @@ module Serializition
     return [] unless File.exist?(filename)
 
     JSON.parse(File.read(filename))
+  end
 end
