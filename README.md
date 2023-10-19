@@ -11,6 +11,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Author](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -74,6 +75,17 @@ To use, run:
 ```
 ruby main.rb
 ```
+
+### Run tests <a name="run tests"></a>
+
+To test, run:
+
+```
+rspec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Author <a name="author">1</a>
 
 - GitHub: [@tajemouti](https://github.com/tajemouti)
